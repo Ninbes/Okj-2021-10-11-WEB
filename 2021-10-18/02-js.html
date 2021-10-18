@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="PBM">
+    <title>Alert példa</title>
+    <script>
+        function hiba(){
+
+            a = confirm("Ez jó?");
+            alert(a);
+        }
+        function adat(szoveg){
+            a = prompt("Név bekérés", szoveg);
+            alert(`Az ön válasza: ${a}`);
+           // alert('Az ön válasza' + a);
+           // ECMA script        
+           }
+    </script>
+</head>
+<body>
+    <input type="button" onclick="alert('Alert!')" value="Alert">
+    <br>
+    <br><input type="button" onclick=hiba() value="Confirm">
+    <br>
+    <br><input type="button" onclick="adat('Ide írja be a nevét')" value="Prompt">
+</body>
+</html>
