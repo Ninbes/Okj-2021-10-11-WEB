@@ -1,0 +1,64 @@
+body{
+    background-image: url(./back.jpg);
+    background-size: cover;
+    
+}
+.torzs{
+    width: 1000px;
+    margin: auto;
+}
+#cimer{
+    float: right;
+    height: 200px;
+    margin-right: 50px;
+}
+#panorama{
+
+    width: 100%;
+    height: 200px;
+}
+#header{
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-image: url(./panorama.jpg);
+    max-width: 1000px;
+    min-width: 650px;
+    height: 200px;
+
+}
+
+
+table{
+    text-align: center;
+}
+.insidetable{   
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #B0D1F1;
+    width: 450px;
+    
+}
+.inline{
+    display: inline-block;
+    width: 490px;
+    border: none;
+    background-color: #5B9CEA;
+    padding-bottom: 50px;
+}
+.strong{
+    font-weight: bold;
+}
+.left{
+    text-align: left;
+}
+td{
+    width: 50%;
+}
+th{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
